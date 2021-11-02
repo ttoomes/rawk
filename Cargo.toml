@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "rawk"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+csv = "1.1"
+idna = "0.2"
+itertools = "0.10"
+serde = {version = "1.0", features = ["derive"]}
+thiserror = "1.0"
